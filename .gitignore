@@ -3,4 +3,3 @@ bin/
 log/
 logs/
 .vs/
-*.sqlite
