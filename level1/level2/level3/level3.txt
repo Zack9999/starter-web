@@ -1,0 +1,15 @@
+1 Supports a one-time pull model from Docker Hub, Azure Container Registry or a private Docker Registry.
+
+2 Kudu on Linux doesn't have the same feature set as Kudu on Windows.
+
+3 App Service Isolated SKUs have the ability to be internally load balanced (ILB) with Azure Load Balancer, which means no public connectivity from the internet. As a result, some features of an ILB Isolated App Service must be used from machines that have direct access to the ILB network endpoint.
+
+4 The number of Web Socket ports are limited by the sku, review the App Service Constraints, Service Limits and Quotas.
+
+5 165 MB outbound network traffic included, additional outbound network bandwidth is charged separately.
+
+6 App Service offers include access to a free 20 MB SQL database for 12 months. After 12 months, the free SQL Database converts to a paid basic SQL subscription.
+
+7 Details on regional availability can be found here. Some features are not available on sovereign clouds (Azure Government, Germany, & China).
+
+8 Naked domains are not supported. Only issuing standard certificates (wildcard certificates are not available). Limited to only one free certificate per custom domain.
